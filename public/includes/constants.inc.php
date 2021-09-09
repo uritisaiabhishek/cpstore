@@ -1,0 +1,15 @@
+<?php
+    define('SITE_NAME','cp-store');
+    define('SITE_LOGO','cp-store');
+    define('SITE_SHRT_DESC','cp-store');
+    define('SITE_EMAIL','cp-store');
+    define('SITE_PHONE','cp-store');
+    define('SITE_ADDRESS','cp-store');
+    define('SITE_LOCATION','cp-store');
+    define('SITE_FACEBOOK','cp-store');
+    define('SITE_INSTAGRAM','cp-store');
+    define('SITE_TWITTER','cp-store');
+    define('SITE_WHATSAPP','cp-store');
+    define('SITE_AUTHOR','chronopegasus');
+    define('SITE_AUTHOR_LINK','https://www.chronopegasus.com');
+?>
