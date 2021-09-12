@@ -2,7 +2,7 @@
     <?php include('includes/status-message.php'); ?>
     <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div class="w-full p-8 lg:w-1/2">
-            <h2 class="text-2xl font-semibold text-gray-700 text-center uppercase"><?php echo SITE_NAME ?></h2>
+            <a href="<?php echo SITE_PATH ?>" class="block text-2xl font-semibold text-gray-700 text-center uppercase"><?php echo SITE_NAME ?></a>
             <form method="post">
                 <div class="mt-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2">USERNAME</label>

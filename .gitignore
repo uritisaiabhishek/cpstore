@@ -1,7 +1,1 @@
-echo "# cpstore" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M php
-git remote add origin https://github.com/uritisaiabhishek/cpstore.git
-git push -u origin main
+node_modules/

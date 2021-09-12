@@ -6,7 +6,7 @@
             <p class="text-7xl font-bold">new products are waiting for you</p>
         </div>
         <div class="w-full p-8 lg:w-1/2">
-            <h2 class="text-2xl font-semibold text-gray-700 text-center uppercase"><?php echo SITE_NAME ?></h2>
+            <a href="<?php echo SITE_PATH ?>" class="block text-2xl font-semibold text-gray-700 text-center uppercase"><?php echo SITE_NAME ?></a>
             <a class="flex items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
                 <div class="px-4 py-3">
                     <svg class="h-6 w-6" viewBox="0 0 40 40">
