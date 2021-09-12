@@ -17,6 +17,7 @@
 		  postcss
 
 6. **User Roles & Capabilities**
+
 		 Admin - 0
 		 		Default Login ID : admin@domain.com
 				Default Password : admin 
