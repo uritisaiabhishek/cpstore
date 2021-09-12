@@ -15,7 +15,6 @@
         require_once('includes/meta-data.inc.php');
     ?>
     <!-- Favicon -->
-    
     <!-- Style Sheets -->
     <!-- Link Swiper's CSS -->
     <link
@@ -28,16 +27,25 @@
     <?php
         if($con){
             if(isset($_SESSION['IS_ADMIN'])&&$_SESSION['IS_ADMIN']!=''){
-              require_once('admin/includes/adminSidebar.inc.php');
-              require_once('admin/includes/adminNavbar.inc.php');
-              require_once('includes/routes.inc.php');
-              require_once('admin/includes/adminFooter.inc.php');
+              ?>
+              <main class="flex">
+              <?php
+                require_once('admin/includes/adminSidebar.inc.php');
+              ?>
+                <aside class="w-4/5">
+                    <?php
+                      require_once('admin/includes/adminNavbar.inc.php');
+                      require_once('includes/routes.inc.php');
+                      require_once('admin/includes/adminFooter.inc.php');
+                    ?>
+                </aside>
+              </main>
+              <?php
             }else{
               require_once('includes/navbar.inc.php');
               require_once('includes/routes.inc.php');
               require_once('includes/footer.inc.php');
             }
-
         }else{
             ?>
             <section class="text-gray-600 body-font">

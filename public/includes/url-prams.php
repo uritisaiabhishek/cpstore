@@ -9,5 +9,15 @@
         // parse_str($url_components['query'], $params);
         // print_r($params);
     }
-
 ?>
+
+<script>
+    const filter_Url = new URL(window.location.href);
+    
+    function product_filter(value_name,value){
+        filter_Url.searchParams.set(value_name,value);
+        console.log(filter_Url);
+        console.log(filter_Url.toString());
+        window.location.replace(filter_Url.toString());
+    }
+</script>

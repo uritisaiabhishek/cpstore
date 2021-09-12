@@ -56,7 +56,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </a>
-                <div class="grid grid-cols-4 w-full font-small absolute bg-indigo-200 top-full left-0 p-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-1 transition-all duration-500">
+                <div class="grid grid-cols-4 w-full font-small absolute bg-indigo-200 top-full left-0 p-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-1 transition-all duration-500 z-10">
                     <ul class="p-2">
                         <li><a class="font-semibold hover:bg-indigo-500 hover:text-white px-2 py-1 my-1 w-full block">Category name</a></li>
                         <li><a class="font-normal text-sm hover:bg-indigo-500 hover:text-white px-2 py-1 my-1 w-full block">Sub Category name</a></li>

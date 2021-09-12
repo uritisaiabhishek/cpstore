@@ -16,8 +16,10 @@
 		  autoprefixer
 		  postcss
 
-6. **Roles**
+6. **User Roles & Capabilities**
 		 Admin - 0
+		 		Default Login ID : admin@domain.com
+				Default Password : admin 
 		 shop admin - 1
 		 team member - 2
 		 customer support - 3
@@ -26,7 +28,7 @@
 		 Customer -6 
 		 delivery boy -7
 		 
-7. gender
+7. **gender**
 		male - 1
 		female - 2
 		preffer not to say - 3

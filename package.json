@@ -1,17 +1,20 @@
 {
   "name": "cp-shop",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "CP-Store is a ecommerce website.",
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss -i src/css/styles.css -c tailwind.config.js -o public/assets/css/styles.css --watch",
-    "buildadmin-css": "tailwindcss build src/css/admin/styles.css -c tailwind.config.js -o public/admin/assets/css/styles.css --watch"
+    "buildadmin-css": "tailwindcss build src/css/admin/styles.css -c tailwind.config.js -o public/admin/assets/css/styles.css --watch",
+    "zip": "npm-build-zip --source=public/ --destination=build/",
+    "build": "npm run build-css && npm run zip"
   },
   "keywords": [],
   "author": "Chronopegasus",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.4",
+    "npm-build-zip": "^1.0.3",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.10"
   }
